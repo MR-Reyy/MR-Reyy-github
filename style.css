@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+nav {
+  padding: 10px 20px;
+  background-color: lightblue;
+  background-color: #Seecee;
+}
+
+ul {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+li {
+  list-style-type: none;
+}
+
+li > a {
+  text-decoration: none;
+  color: black;
+  font-weight: 1000;
+  background: white;
+}
+
+.content {
+  text-align: center;
+}
+
+.content > p {
+  color: #222;
+  margin-top: 15px;
+}
+
+.content > div {
+  margin-top: 25px;
+}
+
+.content > div > a {
+  padding: 10px 15px;
+  background: lightblue;
+  color: black;
+  text-decoration-color: none;
+}
